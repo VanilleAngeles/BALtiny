@@ -27,6 +27,10 @@ J'ai ajouté trois fils à la sortie du boîtier sonnette pour communiquer avec 
 3. Je n'ai pas calculé la consommation totale ATtiny + raspberry mais ça ne devrait pas aller bien loin... Et dans ce montage on économise les piles du récepteur boîtier sonnette.
 4. Si la distance entre la boîte aux lettres et le boîtier sonnette est importante, il faudra veiller à utiliser un matériel qui a une portée suffisante
 5. J'ai mis mon bouton sonnette à l'extérieur de la boîte aux lettres pour limiter la place prise par le dispositif dans la boîte (cas de dépose de colis) et surtout pour pouvoir l'étanchéifier (je l'ai mis dans une boite étanche même si le bouton est étanche par construction) et remplacer la pile plus facilement.
+## la mise en place
+Bien sûr il faut programmer le contrôleur ATtiny 45 avec l'interface IDE de l'Arduino. Comme c'est un peu compliqué, je donne la référence de ce qu'il faut faire.[Lien](https://youtu.be/S-oBujsoe-Q).
+Ensuite il faut soritr le fer à souder; ce dépôt comprend le montage au format standard Fritzing. J'en mets ici une copie d'écran (il est à noter que je n'y ai pas mis la sortie vers le Raspberry optionnel, il lui faut du 5v, de la masse et la sorite + vers la diode.
+![Montage électronique](https://github.com/VanilleAngeles/BALtiny/blob/master/IMG_1212.png)
 ## Conclusion
 Quand je suis chez moi, je suis averti dès que quelqu'un dépose quelque chose dans la boîte aux lettres (bien util quand on attend une livraison).
 Quand je suis absent et que je rentre le soir, je sais si un dépôt a été fait
