@@ -32,6 +32,15 @@ Quand je suis chez moi, je suis averti dès que quelqu'un dépose quelque chose 
 Quand je suis absent et que je rentre le soir, je sais si un dépôt a été fait
 Si je demande à quelqu'un de relever mon courrier, il peut en être averti sur son smartphone (mais ça oblige à lui laisser l'accès au bouton RESET du boîtier sonnette qui est souvent à l'intérieur).
 Donc prochain développement: permettre de faire un Reset à distance (avec un raspberry qui monte une pin du port GPIO pour le dire à l'ATtiny ça ne devrait pas poser trop de problème).
+## Annexes
+### Montage électronique (dans boîtier sonnette)
+![Boîtier électronique](https://github.com/VanilleAngeles/BALtiny/blob/master/IMG_1209.jpg)
+### Interrupteur à bille dans boîte aux lettres
+![Interrupteur à bille](https://github.com/VanilleAngeles/BALtiny/blob/master/IMG_1210.jpg)
+### Boîtier sonnette avec LED allumée, bouton reset dessous et 3 fils qui peuvent aller sur un Raspberry
+![Boîtier sonnette](https://github.com/VanilleAngeles/BALtiny/blob/master/IMG_1211.jpg)
+
+
  
 
 
